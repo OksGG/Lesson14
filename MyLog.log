@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-01-16T23:12:36</date>
+  <millis>1610827956204</millis>
+  <sequence>0</sequence>
+  <logger>gusakova.ReadFileWithLog</logger>
+  <level>ALL</level>
+  <class>gusakova.ReadFileWithLog</class>
+  <method>logSuccess</method>
+  <thread>1</thread>
+  <message>Result:
+Колбаса 0.315 x 315.99 =99.53685
+Сыр Костромской 0.27 x 352.99 =95.30730000000001
+Картошка 4.6 x 25.0 =114.99999999999999
+Молоко топленое 3.0 x 62.0 =186.0
+Яйцо куриное 2.0 x 39.9 =79.8
+Масло сливочное 2.0 x 98.5 =197.0
+Грудка цыпленка 1.207 x 143.9 =173.68730000000002
+Пиво светлое 20.0 x 79.8 =1596.0
+===================
+Итого:              2542.33145</message>
+</record>
+<record>
+  <date>2021-01-16T23:12:36</date>
+  <millis>1610827956229</millis>
+  <sequence>1</sequence>
+  <logger>gusakova.ReadFileWithLog</logger>
+  <level>WARNING</level>
+  <class>gusakova.ReadFileWithLog</class>
+  <method>logError</method>
+  <thread>1</thread>
+  <message>Error: Нет сдачи</message>
+</record>
+</log>
